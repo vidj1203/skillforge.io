@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../topics.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section class="sdbars">
+        <div class="sidebars">
+            <ul>
+                <li class="logo">
+                    <a href="../homepage.html">
+                        <div class="icon" id="icons"><img src="../img/logs.png" class="skills"></div>
+                        <span class="text" >SkillForge</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="logos">
+                    <a href="../homepage.html">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="text">HOME</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="logos">
+                    <a href="../lessons.html">
+                        <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                        <span class="text">COURSES</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="logos">
+                    <a href="http://discord.com/invite/EQ82kFSg" target="_blank">
+                        <span class="icon"><ion-icon name="document-text-outline"></ion-icon></span>
+                        <span class="text">FORUM</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="logos">
+                    <a href="../homepage.html#instructors">
+                        <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+                        <span class="text">ABOUT US</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<header>
+    <h1>CSS Basics - CSS Grid</h1>
+</header>
+
+<section>
+    <h2>Exploring CSS Grid Layout</h2>
+    <p>CSS Grid is a powerful layout system that allows you to create complex and structured designs. Here's an introduction:</p>
+
+    <h3>Defining a Grid Container</h3>
+    <p>Turn an element into a grid container:</p>
+    <pre>
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+    </pre>
+
+    <h3>Grid Items</h3>
+    <p>Define how items should be placed within the grid:</p>
+    <pre>
+.item {
+    grid-column: span 2;
+    grid-row: 1;
+}
+    </pre>
+</section>
+
+<section>
+    <h2>Creating Grid-Based Layouts</h2>
+    <p>Use CSS Grid to structure layouts efficiently:</p>
+
+    <h3>Grid Template Areas</h3>
+    <p>Create named areas for layout:</p>
+    <pre>
+.container {
+    display: grid;
+    grid-template-areas:
+        'header header header'
+        'main main sidebar'
+        'footer footer footer';
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.footer {
+    grid-area: footer;
+}
+    </pre>
+</section>
+
+<a href="css box model.html" class="nextButton">Next</a>
+<a href="css layout and positioning.html" class="prevButton">Prev</a>
+
+<footer>
+    <p>CSS Grid provides a flexible and efficient way to create complex layouts. Experiment with different grid properties and techniques to achieve the desired structure for your web pages.</p>
+</footer>
+
+<footer>
+    <p>&copy; 2024 CSS Learning Page</p>
+</footer>
+
+</body>
+</html>

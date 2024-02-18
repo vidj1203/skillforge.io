@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../topics.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section class="sdbars">
+        <div class="sidebars">
+            <ul>
+                <li class="logo">
+                    <a href="../homepage.html">
+                        <div class="icon" id="icons"><img src="../img/logs.png" class="skills"></div>
+                        <span class="text" >SkillForge</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="logos">
+                    <a href="../homepage.html">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="text">HOME</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="logos">
+                    <a href="../lessons.html">
+                        <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                        <span class="text">COURSES</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="logos">
+                    <a href="http://discord.com/invite/EQ82kFSg" target="_blank">
+                        <span class="icon"><ion-icon name="document-text-outline"></ion-icon></span>
+                        <span class="text">FORUM</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="logos">
+                    <a href="../homepage.html#instructors">
+                        <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+                        <span class="text">ABOUT US</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<header>
+    <h1>JavaScript Basics - Error Handling</h1>
+</header>
+
+<section>
+    <h2>Handling Errors with Try-Catch Blocks</h2>
+    <p>Error handling helps manage unexpected issues in your code. Here's how you can use try-catch blocks:</p>
+
+    <h3>Using Try-Catch:</h3>
+    <pre>
+try {
+    // Code that might throw an error
+    let result = someUndefinedFunction();
+    console.log(result);
+} catch (error) {
+    // Handling the error
+    console.error('An error occurred:', error.message);
+}
+    </pre>
+
+    <h3>Handling Specific Errors:</h3>
+    <pre>
+try {
+    // Code that might throw an error
+    let result = someUndefinedFunction();
+    console.log(result);
+} catch (error) {
+    if (error instanceof ReferenceError) {
+        console.error('Reference error occurred:', error.message);
+    } else {
+        console.error('An error occurred:', error.message);
+    }
+}
+    </pre>
+</section>
+
+<section>
+    <h2>Debugging Techniques and Tools</h2>
+    <p>Debugging helps identify and fix issues in your code. Use browser tools and console statements for effective debugging:</p>
+
+    <h3>Console Logging:</h3>
+    <pre>
+console.log('This is a log message');
+    </pre>
+
+    <h3>Browser DevTools:</h3>
+    <p>Access the browser's developer tools to inspect elements, view console logs, and debug JavaScript.</p>
+</section>
+
+<a href="JS conclusion.html" class="nextButton">Next</a>
+<a href="JS Asyncronous.html" class="prevButton">Prev</a>
+
+<footer>
+    <p>Effective error handling and debugging are essential skills for a JavaScript developer. Learn to anticipate and handle errors gracefully to create robust applications.</p>
+</footer>
+
+<footer>
+    <p>&copy; 2024 JavaScript Learning Page</p>
+</footer>
+</body>
+</html>

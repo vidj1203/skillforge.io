@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../topics.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section class="sdbars">
+        <div class="sidebars">
+            <ul>
+                <li class="logo">
+                    <a href="../homepage.html">
+                        <div class="icon" id="icons"><img src="../IMAGES/logs.png" class="skills"></div>
+                        <span class="text" >SkillForge</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="logos">
+                    <a href="../homepage.html">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="text">HOME</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="logos">
+                    <a href="../course.html">
+                        <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                        <span class="text">COURSES</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="logos">
+                    <a href="http://discord.com/invite/EQ82kFSg" target="_blank">
+                        <span class="icon"><ion-icon name="document-text-outline"></ion-icon></span>
+                        <span class="text">FORUM</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="logos">
+                    <a href="../aboutus.html">
+                        <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+                        <span class="text">ABOUT US</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<header>
+    <h1>CSS Basics - Transitions and Animations</h1>
+</header>
+
+<section>
+    <h2>Transitions</h2>
+    <p>Transitions in CSS allow you to smoothly change property values. Here's an example:</p>
+
+    <pre>
+.button {
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #007BFF;
+}
+    </pre>
+</section>
+
+<section>
+    <h2>Animations with @keyframes</h2>
+    <p>Animations are created using the `@keyframes` rule. Here's a simple animation example:</p>
+
+    <pre>
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.bouncingBall {
+    animation: bounce 1s infinite;
+}
+    </pre>
+</section>
+
+<a href="css responsive design.html" class="nextButton">Next</a>
+<a href="css flexbox.html" class="prevButton">Prev</a>
+
+<footer>
+    <p>Adding transitions and animations to your web page enhances the user experience by introducing visually appealing effects. Experiment with different timing functions and keyframes to create engaging UI elements.</p>
+</footer>
+
+<footer>
+    <p>&copy; 2024 CSS Learning Page</p>
+</footer>
+</body>
+</html>

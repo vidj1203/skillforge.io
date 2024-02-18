@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SkillForge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+     <!-- Navigation -->
+     <nav class="navbar navbar-expand-lg bg-light  py-2 fixed-top">
+      <div class="container">
+        <a href="homepage.html" class="navbar-brand">SkillForge</a>    
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">What You'll Learn</a>
+            </li>
+            <li class="nav-item">
+              <a href="#questions" class="nav-link">Question</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">Instructors</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <section
+      class="bg-light text-light  p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1><span class="text-dark">Build the Foundation of </span><span class="text-warning"> Web Developent </span></h1>
+            <p class="lead my-4">
+              <span class="text-dark">We focus on teaching our students the fundamentals of the latest
+              and greatest technologies to prepare them for their first dev role</span>
+            </p>
+            <a href="lessons.html" class="btn btn-dark mt-3">
+              <i class="bi bi-chevron-right"></i> Let's Get Started
+            </a>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="img/show.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- discord -->
+    <section class="bg-dark text-light p-5 ">
+      <div class="container">
+        <div class="d-flex flex-column  d-md-flex justify-content-center align-items-center">
+          <h3 class="mb-3 mb-md-0 "><span class="text-warning"></span>Join Our Community</h3>
+
+          <a href="http://discord.com/invite/EQ82kFSg" target="_blank" class="text-light lead mx-5  "style="text-decoration :none;"><span class="text-info">Discord link</span></a>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Learn Sections -->
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="img/learns.svg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Learn The Fundamentals</h2>
+            <p class="lead">
+              Welcome to our platform for mastering web development basics. Whether you're new to coding or refining your skills, our content covers everything you need to create dynamic websites. From HTML and CSS to JavaScript, we provide clear explanations and practical examples to guide your learning journey. Get ready to explore the core principles of modern web development with us!            </p>
+            
+            <a href="lessons.html" class="btn btn-dark mt-3">
+              <i class="bi bi-chevron-right"></i> Get Started
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>Join the Fun</h2>
+            <p class="lead">
+              Welcome to coding! It's like being a digital wizard, where you get to create cool stuff with the power of technology. Whether you're curious or looking for new opportunities, coding is your ticket to a world of endless creativity. Let's jump in and start coding our dreams into reality!
+            </p>
+            
+            <a href="lessons.html" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i> Get Started
+            </a>
+          </div>
+          <div class="col-md">
+            <img src="img/fundamentals.svg" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Question Accordion -->
+    <section id="questions" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+              >
+              How do I get started?
+              </button>
+            </h2>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+              Navigate to Our Website: First, open your web browser and type in the URL of our website or click on the provided link.
+              Explore the Content: Once you're on our website, take some time to explore the available resources.
+              You'll find various materials such as courses, tutorials, and articles aimed at helping you learn 
+              the basics of HTML, CSS, and JavaScript.
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two"
+              >
+              Can I access the courses on mobile devices?
+              </button>
+            </h2>
+            <div
+              id="question-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Yes, you can access our courses on mobile devices! Our website is fully responsive, which means
+                it's optimized to work seamlessly across various screen sizes, including smartphones and tablets.
+                Whether you're using an iPhone, Android device, or any other mobile device, you'll be able to access
+                our courses and learning materials with ease. Simply visit our website using your mobile browser, 
+                and you'll have full access to all the content, allowing you to learn on the go, anytime and anywhere.
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three"
+              >
+                What do I need to Know?
+              </button>
+            </h2>
+            <div
+              id="question-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Basic Computer Skills: You should be comfortable using a computer and navigating the internet. This includes tasks such as opening a web browser, clicking on links, and typing in web addresses.
+                English Language Proficiency: Most of our content is available in English, so a basic understanding of the English language will be helpful for navigating our website and understanding the course materials.
+                Interest in Web Development: It's helpful to have an interest in web development and a desire to learn HTML, CSS, and JavaScript. Having a curiosity about how websites are built and a willingness to explore new
+                concepts will make your learning journey more enjoyable and rewarding.
+              </div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-four"
+              >
+              Is there a cost associated with courses?
+              </button>
+            </h2>
+            <div
+              id="question-four"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                No, there is no cost associated with our courses. All the materials available on our website are provided free of charge.
+                You can access tutorials, articles, exercises, and other learning resources without any fees or subscriptions. We believe 
+                in making education accessible to everyone, regardless of financial constraints, and strive to provide high-quality 
+                content to support your learning journey at no cost.
+              </div>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-five"
+              >
+                Do you help me find a job?
+              </button>
+            </h2>
+            <div
+              id="question-five"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                While we provide foundational knowledge in web development through our courses, tutorials, and learning materials,
+                we do not directly assist in job placement or provide career services. Our focus is to equip learners with the 
+                fundamental skills necessary to pursue further learning and development in the field of web development.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--instructors-->
+    <section id="instructors" class="p-5 bg-warning">
+      <div class="container">
+        <h2 class="text-center text-white"><span class="text-dark">Our Instructors</span></h2>
+        <p class="lead text-center text-white mb-5"><span class="text-dark"></span></p>
+        <div class="row justify-content-center align-items-stretch g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="">
+                <h3 class="card-title mb-3">Abalos, John Michael R.</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.</p>
+                <div class="social-links">
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle mb-3" alt="">
+                <h3 class="card-title mb-3">Niquit, Renuell M.</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.</p>
+                <div class="social-links">
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-circle mb-3" alt="">
+                <h3 class="card-title mb-3">Miranda, Loid Albert S.</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.</p>
+                <div class="social-links">
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="https://randomuser.me/api/portraits/women/12.jpg" class="rounded-circle mb-3" alt="">
+                <h3 class="card-title mb-3">Aragon, Brenjho Yuan L.</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.</p>
+                <div class="social-links">
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-12 col-lg-4">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-circle mb-3" alt="">
+                <h3 class="card-title mb-3">Dulay, Virgilio Jr. I.</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.</p>
+                <div class="social-links">
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    <section>
+      <footer class="bg-dark text-light p-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5>About Us</h5>
+              <p>We are a college students dedicated to making web programming accessible and enjoyable for everyone. 
+                As firm believers in the power of education and technology, we came together to create a platform where 
+                aspiring developers can embark on their journey to master the fundamentals of web development.</p>
+            </div>
+            <div class="col-md-6">
+              <h5>Contact Us</h5>
+              <ul class="list-unstyled">
+                <li>Address: 123 Main St, City, Country</li>
+                <li>Email: example@example.com</li>
+                <li>Phone: +123 456 7890</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col text-center">
+              <p>&copy; 2024 SkillForge. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

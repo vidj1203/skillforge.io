@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../topics.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section class="sdbars">
+        <div class="sidebars">
+            <ul>
+                <li class="logo">
+                    <a href="../homepage.html">
+                        <div class="icon" id="icons"><img src="../img/logs.png" class="skills"></div>
+                        <span class="text" >SkillForge</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="logos">
+                    <a href="../homepage.html">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="text">HOME</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="logos">
+                    <a href="../lessons.html">
+                        <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                        <span class="text">COURSES</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="logos">
+                    <a href="http://discord.com/invite/EQ82kFSg" target="_blank">
+                        <span class="icon"><ion-icon name="document-text-outline"></ion-icon></span>
+                        <span class="text">FORUM</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="logos">
+                    <a href="../homepage.html#instructors">
+                        <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+                        <span class="text">ABOUT US</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<header>
+    <h1>JavaScript Basics - Objects</h1>
+</header>
+
+<section>
+    <h2>Understanding Objects and Properties</h2>
+    <p>Objects in JavaScript are used to store and organize data. Here's how you define and work with objects:</p>
+
+    <h3>Object Definition:</h3>
+    <pre>
+let person = {
+    name: 'John',
+    age: 25,
+    gender: 'Male'
+};
+    </pre>
+
+    <h3>Accessing Object Properties:</h3>
+    <pre>
+let personName = person.name; // Accesses the name property (John)
+    </pre>
+
+    <h3>Modifying Object Properties:</h3>
+    <pre>
+person.age = 26; // Changes the age property to 26
+    </pre>
+</section>
+
+<section>
+    <h2>Object Methods and Accessing Values</h2>
+    <p>Objects can contain methods (functions) and values. Here's how you work with them:</p>
+
+    <h3>Object with Method:</h3>
+    <pre>
+let car = {
+    brand: 'Toyota',
+    model: 'Camry',
+    startEngine: function() {
+        console.log('Engine started!');
+    }
+};
+
+car.startEngine(); // Outputs: Engine started!
+    </pre>
+
+    <h3>Accessing Values Dynamically:</h3>
+    <pre>
+let key = 'brand';
+let carBrand = car[key]; // Accesses the value of the 'brand' property (Toyota)
+    </pre>
+</section>
+
+<a href="JS Event and Event handling.html" class="nextButton">Next</a>
+<a href="JS arrays.html" class="prevButton">Prev</a>
+
+<footer>
+    <p>Objects are versatile in JavaScript, allowing you to organize data with properties and include functionality with methods. Explore their capabilities to enhance your coding skills.</p>
+</footer>
+
+<footer>
+    <p>&copy; 2024 JavaScript Learning Page</p>
+</footer>
+
+</body>
+</html>
